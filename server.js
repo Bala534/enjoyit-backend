@@ -22,8 +22,8 @@ app.post('/signup', (req,res) => {
 
 app.post('/signin', (req,res) => {
     let data1 = {
-        email: req.body.mail,
-        password: req.body.pswd
+        mail: req.body.mail,
+        pswd: req.body.pswd
     }
     res.send(data1)
 })
