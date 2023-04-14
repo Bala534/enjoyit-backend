@@ -2,7 +2,7 @@ let express = require('express')
 let app = express()
 let mongojs = require('mongojs')
 
-app.get('/', (res,res) => {
+app.get('/', (req,res) => {
     res.send('welcome to enjoyit')
 })
 
