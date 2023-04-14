@@ -8,10 +8,10 @@ app.get('/', (req,res) => {
 
 app.post('/signup', (req,res) => {
     let data = {
-        firstname: req.body.fname,
-        lastname: req.body.lname,
-        email: req.body.mail,
-        password: req.body.pswd
+        fname: req.body.fname,
+        lname: req.body.lname,
+        mail: req.body.mail,
+        pswd: req.body.pswd
     }
     res.send(data)
 })
